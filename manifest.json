@@ -1,8 +1,9 @@
 {
     "files": {
-        "index.js": "2fe77a6e8f16f48fe28ca33d25c1a227171739fff24b9e7e5ebd6b47c66af414"
+        "index.js": "b4fe4ecec0a8950548395fae9d2d47347eaa8050ec2a594d9a9b057bb090df2c"
     },
     "defs": {
+        "S_BEGIN_THROUGH_ARBITER_CONTRACT": 1,
         "S_REQUEST_CONTRACT": 1
     }
 }
