@@ -1,6 +1,6 @@
 module.exports = function RequestLogs(mod) {
-    const cmd = mod.command || mod.require.command;
-    mod.hook('S_REQUEST_CONTRACT', 1, e => {
+	const cmd = mod.command || mod.require.command;
+	mod.hook('S_REQUEST_CONTRACT', 1, e => {
 		let sender = e.senderName;
 		switch (e.type) {
 			case 3:
@@ -19,7 +19,7 @@ module.exports = function RequestLogs(mod) {
 				cmd.message(sender + ' sent you a deathmatch invite at');
 				break;
 		}
-    })
+	})
 	
 	function msglogs(msg) {
 		let timeNow = new Date();
