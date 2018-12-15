@@ -4,19 +4,19 @@ module.exports = function RequestLogs(mod) {
 		let sender = e.senderName;
 		switch (e.type) {
 			case 3:
-				cmd.message(sender + ' sent you a trade request at');
+				msglogs(sender + ' sent you a trade request at');
 				break;
 			case 4:
-				cmd.message(sender + ' sent you a party invite at');
+				msglogs(sender + ' sent you a party invite at');
 				break;
 			case 5:
-				cmd.message(sender + ' sent you a party joined at');
+				msglogs(sender + ' sent you a party joined at');
 				break;
 			case 11:
-				cmd.message(sender + ' sent you a duel request at');
+				msglogs(sender + ' sent you a duel request at');
 				break;
 			case 18:
-				cmd.message(sender + ' sent you a deathmatch invite at');
+				msglogs(sender + ' sent you a deathmatch invite at');
 				break;
 		}
 	})
