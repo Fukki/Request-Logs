@@ -19,7 +19,7 @@ module.exports = function RequestLogs(mod) {
 				msglogs(sender + ' sent you a deathmatch invite at');
 				break;
 		}
-	})
+	});
 	
 	function msglogs(msg) {
 		let timeNow = new Date();
