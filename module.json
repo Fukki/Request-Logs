@@ -1,0 +1,12 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Request-Logs",
+    "author": "Fukki",
+    "description": "Logs for who has request you.",
+    "version": "Kappa :v",
+    "options": {
+        "niceName": "RLogs"
+    },
+    "servers": ["https://raw.githubusercontent.com/Fukki/request-logs/master/"],
+    "supportUrl": "https://github.com/Fukki/request-logs/issues/"
+}
