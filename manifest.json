@@ -1,9 +1,13 @@
 {
-    "files": {
-        "index.js": "b4fe4ecec0a8950548395fae9d2d47347eaa8050ec2a594d9a9b057bb090df2c"
-    },
-    "defs": {
-        "S_BEGIN_THROUGH_ARBITER_CONTRACT": 1,
-        "S_REQUEST_CONTRACT": 1
-    }
+	"files": {
+		"index.js": "828cbbc5de9d8f32d6aa02a661563a11bcddab5b0a6382a877709dcc2a244985"
+	},
+	"defs": {
+		"C_GET_USER_LIST": 1,
+		"C_RETURN_TO_LOBBY": 1,
+		"C_SELECT_USER": 1,
+		"S_GET_USER_LIST": 16,
+		"S_PREPARE_RETURN_TO_LOBBY": 1,
+		"S_RETURN_TO_LOBBY": 1
+	}
 }
